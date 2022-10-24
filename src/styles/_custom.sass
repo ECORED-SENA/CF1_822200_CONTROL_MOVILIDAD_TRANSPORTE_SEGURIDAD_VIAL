@@ -2,14 +2,25 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 70%
+    right: -3%
   &-2
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 85%
+    min-width: 157px
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 21%
+    right: 80%
+    min-width: 106px
+  &-4
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 0%
+    right: 0%
 
 @keyframes float1
   0%
@@ -17,3 +28,54 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal
+  .tarjeta
+    background-position: left
+  .banner-principal__row
+    .banner-principal__info
+      .banner-principal__componente
+        h1
+          color: black
+      .banner-principal__descripcion
+        p
+          color: black
+      .banner-principal__accion
+        a span, a i
+          color: white !important
+    .banner-principal__img
+      padding-top: 0 !important
+      padding-bottom: 0 !important
+      padding-right: 0 !important
+      img
+        max-width: 433px
+        margin-left: auto
+
+.titulo-principal
+  .titulo-principal__numero
+    span i
+      color: black
+.banner-interno__fondo
+  background-image: url('../assets/curso/portada/bg-header.svg') !important
+
+.slyder-f
+  .horizontal-scroll
+    display: flex !important
+    align-items: stretch !important
+    height: 100%
+    .slyder-f__slyde
+      display: flex
+      align-items: stretch
+.tabla-a
+  thead
+    border-top: 20px solid black !important
+    tr
+      th
+        background-color: #FFF5C5
+        border-color: #707070
+  tbody
+    tr
+      td
+        border-color: #707070
+
+    

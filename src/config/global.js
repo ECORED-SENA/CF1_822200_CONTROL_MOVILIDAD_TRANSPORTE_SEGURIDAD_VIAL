@@ -1,17 +1,26 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Tránsito y seguridad vial',
+    descripcionCurso:
+      'Este componente aborda la importancia de los aspectos normativos y técnicos relacionados con el tránsito y la movilidad, explicando las técnicas más importantes para el desarrollo de controles de tránsito y formatos de policía judicial necesarios para la atención de accidentes de tránsito; además, el aprendiz se debe proyectar como ejemplo vial multiplicador de conocimientos que le aporte a la solución de este problema social.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/float1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float4.png'),
       },
     ],
   },
