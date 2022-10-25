@@ -378,7 +378,7 @@
         h4.text-center(style="color: black") Señales de prohibición tercer grupo
         p.mb-4.text-center(style="color: black") Otras prohibiciones relacionadas a velocidad, luces, tipo de vehículo, etc.
         .d-flex.mt-auto.mb-0
-          a.boton.boton-modal-sl(@click="modal1 = true;")
+          a.boton.boton-modal-sl(@click="modal3 = true;")
             span Ver señales
       
       .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FEF0DE")
@@ -386,7 +386,7 @@
         h4.text-center(style="color: black") Señales de prohibición cuarto grupo
         p.mb-4.text-center(style="color: black") Prohibición de maniobras y circulación.
         .d-flex.mt-auto.mb-0
-          a.boton.boton-modal-sl(@click="modal1 = true;")
+          a.boton.boton-modal-sl(@click="modal4 = true;")
             span Ver señales
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
@@ -444,17 +444,17 @@
 
     SlyderF.mb-5(columnas="col-md-6 col-lg-4")
       .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FFF5C5")
-        img.mb-4.mx-auto(src='@/assets/curso/temas/tema1/sl3-1.svg' style="max-width: 190px")
-        h4.text-center(style="color: black") Señales preventivas primer grupo
+        img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-1.svg' style="max-width: 190px")
+        h4.mt-4.text-center(style="color: black") Señales preventivas primer grupo
         p.mb-4.text-center(style="color: black") De curvatura horizontal
         .d-flex.mt-auto.mb-0
-          a.boton.boton-modal-sl.indicador__container(@click="modal1 = true; mostrarIndicador = false;")
+          a.boton.boton-modal-sl.indicador__container(@click="modal5 = true; mostrarIndicador = false;")
             span Ver señales
             .indicador--click(v-if="mostrarIndicador")
       
       .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FFF5C5")
-        img.mb-4.mx-auto(src='@/assets/curso/temas/tema1/sl3-2.svg' style="max-width: 190px")
-        h4.text-center(style="color: black") Señales preventivas segundo grupo
+        img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-2.svg' style="max-width: 190px")
+        h4.mt-4.text-center(style="color: black") Señales preventivas segundo grupo
         ul.lista-ul.mb-3.w-100
           li.d-flex
             <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
@@ -472,20 +472,20 @@
             </svg>
             p.mb-0.ps-2.col(style="color: black") Preventivas sobre restricciones  físicas de la vía.
         .d-flex.mt-auto.mb-0
-          a.boton.boton-modal-sl(@click="modal2 = true;")
+          a.boton.boton-modal-sl(@click="modal6 = true;")
             span Ver señales
       
       .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FFF5C5")
-        img.mb-4.mx-auto(src='@/assets/curso/temas/tema1/sl3-3.svg' style="max-width: 190px")
-        h4.text-center(style="color: black") Señales preventivas tercer grupo
+        img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-3.svg' style="max-width: 190px")
+        h4.mt-4.text-center(style="color: black") Señales preventivas tercer grupo
         p.mb-4.text-center(style="color: black") De curvatura horizontal
         .d-flex.mt-auto.mb-0
-          a.boton.boton-modal-sl(@click="modal1 = true;")
+          a.boton.boton-modal-sl(@click="modal7 = true;")
             span Ver señales
       
       .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FFF5C5")
-        img.mb-4.mx-auto(src='@/assets/curso/temas/tema1/sl3-4.svg' style="max-width: 190px")
-        h4.text-center(style="color: black") Señales preventivas cuarto grupo
+        img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-4.svg' style="max-width: 190px")
+        h4.mt-4.text-center(style="color: black") Señales preventivas cuarto grupo
         ul.lista-ul.mb-3.w-100
           li.d-flex
             <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
@@ -498,7 +498,7 @@
             </svg>
             p.mb-0.ps-2.col(style="color: black") Preventivas sobre situaciones especiales.
         .d-flex.mt-auto.mb-0
-          a.boton.boton-modal-sl(@click="modal1 = true;")
+          a.boton.boton-modal-sl(@click="modal8 = true;")
             span Ver señales
 
     .mb-4.d-flex
@@ -513,6 +513,169 @@
     
     p.mb-5 A continuación se verá la representación visual de cada una de las señales informativas de distancias a ciudades y localidades.
     
+    .d-flex.flex-wrap.align-items-stretch.mb-5
+      .d-flex.col-xl-4.px-2.mb-4
+        .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FEE3C0")
+          img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-1.svg' style="max-width: 190px")
+          .w-100.mt-4.mb-auto
+            h4.text-center(style="color: black") Señales informativas primer grupo
+            ul.lista-ul.mb-3.w-100
+              li.d-flex
+                <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                  <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                </svg>
+                p.mb-0.ps-2.col(style="color: black") Direcciones hacia destinos, calles o rutas.
+              li.d-flex
+                <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                  <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                </svg>
+                p.mb-0.ps-2.col(style="color: black") Hacia dónde conduce la vía.
+              li.d-flex
+                <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                  <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                </svg>
+                p.mb-0.ps-2.col(style="color: black") Enlaces o empalmes con otras vías.
+              li.d-flex
+                <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                  <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                </svg>
+                p.mb-0.ps-2.col(style="color: black") Carriles apropiados para cada destino.
+              li.d-flex
+                <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                  <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                </svg>
+                p.mb-0.ps-2.col(style="color: black") Inicio de la salida a otras vías.
+              li.d-flex
+                <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                  <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                </svg>
+                p.mb-0.ps-2.col(style="color: black") Distancias a que se encuentran los destinos.
+              li.d-flex
+                <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                  <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                </svg>
+                p.mb-0.ps-2.col(style="color: black") Hito kilométrico a lo largo de la vía.
+              li.d-flex
+                <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                  <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                </svg>
+                p.mb-0.ps-2.col(style="color: black") Identificación de rutas y calles.
+          .d-flex.mt-auto.mb-0
+            a.boton.boton-modal-sl(@click="modal9 = true;")
+              span Ver señales
+
+      .d-flex.col-xl-4.px-2.mb-4
+        .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FEE3C0")
+          img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-2.svg' style="max-width: 190px")
+          .w-100.mt-4.mb-auto
+            h4.text-center(style="color: black") Señales Informativas segundo grupo
+            p.mb-4.text-center(style="color: black") Servicios generales.
+          .d-flex.mt-auto.mb-0
+            a.boton.boton-modal-sl(@click="modal10 = true;")
+              span Ver señales
+      
+      .d-flex.col-xl-4.px-2.mb-4
+        .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FEE3C0")
+          img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-3.svg' style="max-width: 190px")
+          .w-100.mt-4.mb-auto
+            h4.text-center(style="color: black") Señales informativas tercer grupo
+            ul.lista-ul.mb-3.w-100
+              li.d-flex
+                <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                  <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                </svg>
+                p.mb-0.ps-2.col(style="color: black") Lugares de atractivo turístico existentes en las inmediaciones de la vía.
+              li.d-flex
+                <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                  <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                </svg>
+                p.mb-0.ps-2.col(style="color: black") Nombres de ciudades, ríos, puentes, calles, parques, lugares históricos y otros.
+              li.d-flex
+                <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                  <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                </svg>
+                p.mb-0.ps-2.col(style="color: black") Cualquier otra información de importancia para los conductores.
+          .d-flex.mt-auto.mb-0
+            a.boton.boton-modal-sl(@click="modal11 = true;")
+              span Ver señales
+    .mb-4.d-flex
+      .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
+        img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;")
+        h4.col.ps-3.mb-0.text-white Demarcaciones
+    
+    .d-flex.flex-wrap.mb-5
+      img.col-lg-4.mb-4.mb-lg-0.mx-auto(src='@/assets/curso/temas/tema1/img-14.png' style="max-width: 400px;")
+      .col-lg-8
+        p.mb-0.ps-lg-4 Se conocen como demarcaciones la aplicación de marcas viales conformadas por líneas, flechas, símbolos y letras que se adhieren sobre el pavimento, bordillos o sardineles y estructuras de las vías de circulación o adyacentes a ellas, así como a los dispositivos que se colocan sobre la superficie de rodadura para regular, canalizar el tránsito o indicar la presencia de obstáculos.
+          br
+          br
+          |A continuación, se expone la aplicación de marcas viales por líneas, flechas, símbolos, letras y su clasificación, así:
+    
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    ModalA.modal-t1(:abrir-modal.sync="modal1" style="background-color: #FEF0DE")
+      .row.align-items-center
+        h3.text-center Señales de prohibición primer grupo
+        p.text-center Prohibición de maniobras y giros
+        img.mx-auto(src='@/assets/curso/temas/tema1/modal1.svg' style="max-width: 600px")
+    
+    ModalA.modal-t1(:abrir-modal.sync="modal2" style="background-color: #FEF0DE")
+      .row.align-items-center
+        h3.text-center Señales de prohibición segundo grupo
+        p.text-center Prohibición de maniobras y giros
+        img.mx-auto(src='@/assets/curso/temas/tema1/modal2.svg' style="max-width: 600px")
+    
+    ModalA.modal-t1(:abrir-modal.sync="modal3" style="background-color: #FEF0DE")
+      .row.align-items-center
+        h3.text-center Señales de prohibición tercer grupo
+        p.text-center Otras prohibiciones relacionadas a velocidad, luces, tipo de vehículo, etc.
+        img.mx-auto(src='@/assets/curso/temas/tema1/modal3.svg' style="max-width: 600px")
+    ModalA.modal-t1(:abrir-modal.sync="modal4" style="background-color: #FEF0DE")
+      .row.align-items-center
+        h3.text-center Señales de prohibición cuarto grupo
+        p.text-center Prohibición de maniobras y circulación.
+        img.mx-auto(src='@/assets/curso/temas/tema1/modal4.svg' style="max-width: 600px")
+
+    ModalA.modal-t2(:abrir-modal.sync="modal5" style="background-color: #FEF0DE")
+      .row.align-items-center
+        h3.text-center Señales preventivas primer grupo
+        p.text-center De curvatura horizontal
+        img.mx-auto(src='@/assets/curso/temas/tema1/modal5.svg' style="max-width: 600px")
+    ModalA.modal-t2(:abrir-modal.sync="modal6" style="background-color: #FEF0DE")
+      .row.align-items-center
+        h3.text-center Señales preventivas segundo grupo
+        p.text-center Pendientes longitudinales. 
+        img.mx-auto(src='@/assets/curso/temas/tema1/modal6.svg' style="max-width: 600px")
+    ModalA.modal-t2(:abrir-modal.sync="modal7" style="background-color: #FEF0DE")
+      .row.align-items-center
+        h3.text-center Señales preventivas tercer grupo
+        p.text-center De curvatura horizontal
+        img.mx-auto(src='@/assets/curso/temas/tema1/modal7.svg' style="max-width: 600px")
+    ModalA.modal-t2(:abrir-modal.sync="modal8" style="background-color: #FEF0DE")
+      .row.align-items-center
+        h3.text-center Señales preventivas cuarto grupo
+        p.text-center Preventivas sobre características operativas de la vía.
+        img.mx-auto(src='@/assets/curso/temas/tema1/modal8.svg' style="max-width: 600px")
+    
+    ModalA.modal-t1(:abrir-modal.sync="modal9" style="background-color: #FEF0DE")
+      .row.align-items-center
+        h3.text-center Señales informativas primer grupo
+        p.text-center Direcciones hacia destinos, calles o rutas.
+        img.mx-auto(src='@/assets/curso/temas/tema1/modal9.svg' style="max-width: 600px")
+    
+    ModalA.modal-t1(:abrir-modal.sync="modal10" style="background-color: #FEF0DE")
+      .row.align-items-center
+        h3.text-center Señales Informativas segundo grupo
+        p.text-center Servicios generales.
+        img.mx-auto(src='@/assets/curso/temas/tema1/modal10.svg' style="max-width: 600px")
+    
+    ModalA.modal-t1(:abrir-modal.sync="modal11" style="background-color: #FEF0DE")
+      .row.align-items-center
+        h3.text-center Señales informativas tercer grupo
+        p.text-center Lugares de atractivo turístico existentes en las inmediaciones de la vía.
+        img.mx-auto(src='@/assets/curso/temas/tema1/modal11.svg' style="max-width: 600px")
 </template>
 
 <script>
@@ -522,6 +685,16 @@ export default {
   data: () => ({
     mostrarIndicador: true,
     modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
+    modal5: false,
+    modal6: false,
+    modal7: false,
+    modal8: false,
+    modal9: false,
+    modal10: false,
+    modal11: false,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -582,4 +755,10 @@ export default {
     span
       color: black
       font-weight: bold
+.modal-t1
+  .modal-a__content
+    background-color: #FEF0DE
+.modal-t2
+  .modal-a__content
+    background-color: #FFF5C5
 </style>
