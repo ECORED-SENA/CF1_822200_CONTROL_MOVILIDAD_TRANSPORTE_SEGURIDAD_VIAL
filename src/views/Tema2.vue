@@ -147,13 +147,13 @@
       br
       |En el siguiente video se expone cómo realizar actividades de control operativo en las vías de Colombia.
     
-    figure
+    figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p.mb-5 Adicionalmente, el capítulo 8 del Manual de señalización vial establece la señalización de calles y carreteras afectadas por eventos especiales de tránsito diferentes a obras en la vía, los cuales se clasifican como se muestra a continuación:
 
-    .tabla-a.color-acento-botones.mb-5 
+    .tabla-a.color-acento-botones.mb-5.col-xl-10.mx-auto
       table
         thead
           tr
