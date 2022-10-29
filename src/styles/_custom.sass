@@ -83,5 +83,26 @@
     tr
       td
         border-color: #707070
+.bg-texto-left-img
+  position: relative
+  padding: 1rem 2rem
+  width: 100%
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  p, img
+    position: relative
+    z-index: 1
+  &::after
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    height: 100%
+    width: 505px
+    background-color: #FFF5C5
+  @media (max-width: 991px)
+    &::after
+      width: 100%
 
     
