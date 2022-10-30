@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Aspectos relacionados con el tránsito
-    p.mb-5 Para facilitar la movilidad de la población, es necesaria la adecuación de una infraestructura vial que permita el desplazamiento seguro a las personas.
+    p.mb-5(data-aos="fade-right") Para facilitar la movilidad de la población, es necesaria la adecuación de una infraestructura vial que permita el desplazamiento seguro a las personas.
       |La Ley de Tránsito en Colombia detalla cada una de las normas que deben cumplir los conductores (de carros particulares, servicio público, motos y otros) y peatones.
       br
       br
@@ -15,6 +15,7 @@
     .tarjeta.tarjeta--azul.p-4.mb-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-1.svg')})`}"
       style="background-repeat: no-repeat; background-size: cover;"
+      data-aos="fade-left"
     )
       SlyderA(tipo="b")
         .d-flex.flex-wrap.p-xl-4
@@ -112,36 +113,36 @@
       h2#t_1_1 1.1 Aspectos normativos
     
     .d-flex.flex-wrap.align-items-center.mb-5
-      img.mx-auto.mb-4.mb-lg-0(src="@/assets/curso/temas/tema1/img-2.png" style="width: 100%; max-width: 400px")
+      img.mx-auto.mb-4.mb-lg-0(src="@/assets/curso/temas/tema1/img-2.png" data-aos="fade-right" style="width: 100%; max-width: 400px")
       .col-12.col-lg.ps-md-4
-        p.mb-0 La movilidad de los actores viales (conductor, pasajero, peatón) requiere un conjunto de reglas de circulación, claras y específicas, las cuales se encuentran establecidas en un orden jerárquico como lo establece la teoría pura del derecho, que para nuestro caso se encuentra en cabeza de la Constitución Política de Colombia (1991) que, como norma de normas, establece en el artículo 24 la libre locomoción que está regulada a través de la Ley 769 de 2002 (Código Nacional de Tránsito), con todas sus actualizaciones, el cual determina las normas de comportamiento vial de cada uno de los actores viales. En la siguiente figura, se presenta la jerarquía de normas establecidas.
+        p.mb-0(data-aos="fade-left") La movilidad de los actores viales (conductor, pasajero, peatón) requiere un conjunto de reglas de circulación, claras y específicas, las cuales se encuentran establecidas en un orden jerárquico como lo establece la teoría pura del derecho, que para nuestro caso se encuentra en cabeza de la Constitución Política de Colombia (1991) que, como norma de normas, establece en el artículo 24 la libre locomoción que está regulada a través de la Ley 769 de 2002 (Código Nacional de Tránsito), con todas sus actualizaciones, el cual determina las normas de comportamiento vial de cada uno de los actores viales. En la siguiente figura, se presenta la jerarquía de normas establecidas.
       
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 1.
       span Pirámide de Hans Kelsen - jerarquía de las normas
     
     .tarjeta.p-3.p-lg-0.mb-5(style="background-color: #E8E8E8;")
-      .col-lg-11.mx-lg-auto.d-flex.flex-wrap.pt-lg-4
+      .col-lg-11.mx-lg-auto.d-flex.flex-wrap.pt-lg-4(data-aos="fade-right")
         img.col-lg-6.mx-auto.order-2.order-lg-1(src="@/assets/curso/temas/tema1/img-3.svg")
         img.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(src="@/assets/curso/temas/tema1/img-4.svg")
     
-    p.mb-5 Con base en la Figura 1, es necesario entender que en Colombia existe un ordenamiento jurídico que reglamenta el comportamiento de todos y cada uno de los actores viales al igual que normas de transporte de personas o cosas de un punto a otro, por lo que se puede simplificar este apartado normativo como se muestra en la siguiente figura.
+    p.mb-5(data-aos="fade-left") Con base en la Figura 1, es necesario entender que en Colombia existe un ordenamiento jurídico que reglamenta el comportamiento de todos y cada uno de los actores viales al igual que normas de transporte de personas o cosas de un punto a otro, por lo que se puede simplificar este apartado normativo como se muestra en la siguiente figura.
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 2.
       span Aspectos normativos del tránsito y el transporte en Colombia
 
     .d-flex.flex-wrap.mb-4
-      h4.px-4.py-2(style="background-color: #FFD817") CONSTITUCIÓN POLÍTICA DE COLOMBIA 
+      h4.px-4.py-2(style="background-color: #FFD817" data-aos="fade-right") CONSTITUCIÓN POLÍTICA DE COLOMBIA 
 
     .d-flex.flex-wrap.mb-5
       .col-lg-7.d-flex.flex-wrap.mt-auto.order-2.order-lg-1.bg-edit-1
         .d-flex.flex-wrap.mb-4(style="margin-top: -20px; max-height: 40px")
-          h3.px-3.py-2(style="background-color: black; color: white;") Tránsito
+          h3.px-3.py-2(style="background-color: black; color: white;" data-aos="fade-up") Tránsito
         .px-4.mb-auto
-          p.mb-4 #[b ARTÍCULO 24.] Todo colombiano, con las limitaciones que establezca la ley, tiene derecho a circular libremente por el territorio nacional.
+          p.mb-4(data-aos="fade-right") #[b ARTÍCULO 24.] Todo colombiano, con las limitaciones que establezca la ley, tiene derecho a circular libremente por el territorio nacional.
           ul.lista-ul.mb-3
-            li.mb-3
+            li.mb-3(data-aos="fade-right")
               <svg style="max-width: 33px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
                 <defs>
                   <clipPath id="clip-path">
@@ -165,7 +166,7 @@
               </svg>
               p.mb-0.ps-3 #[b Ley 1503 de 2011] por la cual se promueven hábitos, comportamientos y conductas seguras en la vía.
             
-            li.mb-3
+            li.mb-3(data-aos="fade-right")
               <svg style="max-width: 33px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
                 <defs>
                   <clipPath id="clip-path">
@@ -189,7 +190,7 @@
               </svg>
               p.mb-0.ps-3 #[b Ley 769 del 2002] Código Nacional de Tránsito Terrestre.
             
-            li.mb-3
+            li.mb-3(data-aos="fade-right")
               <svg style="max-width: 33px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
                 <defs>
                   <clipPath id="clip-path">
@@ -213,7 +214,7 @@
               </svg>
               p.mb-0.ps-3 #[b Ley 1383 de 2010] Modificación de 24 artículos de la Ley 769 de 2002. 
             
-            li.mb-3
+            li.mb-3(data-aos="fade-right")
               <svg style="max-width: 33px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
                 <defs>
                   <clipPath id="clip-path">
@@ -238,12 +239,12 @@
               p.mb-0.ps-3 #[b Ley 1696 de 2013] establece sanciones penales y administrativas para la sanción de la embriaguez y otras sustancias.
 
       .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0.px-lg-3.mx-auto
-        img(src="@/assets/curso/temas/tema1/img-5.svg" style="z-index: 2; position: relative;")
+        img(src="@/assets/curso/temas/tema1/img-5.svg" data-aos="fade-left" style="z-index: 2; position: relative;")
   
     .d-flex.flex-wrap.mb-4(style="margin-top: -20px; max-height: 40px")
-      h3.px-3.py-2(style="background-color: black; color: white;") Transporte
+      h3.px-3.py-2(style="background-color: black; color: white;" data-aos="fade-right") Transporte
     
-    SlyderF.mb-5(columnas="col-md-6 col-lg-4 col-xl-3")
+    SlyderF.mb-5(columnas="col-md-6 col-lg-4 col-xl-3" data-aos="fade-left")
       .tarjeta.w-100.color-acento-botones.p-4(style="background-color: #FCC781")
         img.mb-3.mx-auto(src='@/assets/curso/temas/tema1/img-6.svg' style="max-width: 54px")
         p.text-center(style="color: black") #[b(style="color: black") Ley 105 de 1993] por la cual se dictan disposiciones básicas sobre el transporte. 
@@ -295,38 +296,38 @@
       .tarjeta.w-100.color-acento-botones.p-4(style="background-color: #FCC781")
         img.mb-3.mx-auto(src='@/assets/curso/temas/tema1/img-8.svg' style="max-width: 54px")
         p.text-center(style="color: black") #[b(style="color: black") Resolución 4247 de 2019] por la cual se adopta el formato para el Informe Único de Infracciones al Transporte.
-    p.fw-bold Fuentes de información Normatividad y Legislación Colombiana. Elaborado por Lino Quiroga 
+    p.fw-bold(data-aos="fade-right") Fuentes de información Normatividad y Legislación Colombiana. Elaborado por Lino Quiroga 
     Separador
 
     .titulo-segundo.color-secundario
       h2#t_1_2 1.2  Manual de señalización vial
     
     .bg-texto-left.mb-5
-      img.mb-3.mb-md-0.mx-auto(src='@/assets/curso/temas/tema1/img-9.svg' style="max-width: 85px")
-      p.col-md.mb-0.ps-md-4 El Ministerio de Transporte, como autoridad suprema de tránsito en Colombia, ha reglamentado mediante la Resolución 1885 de 2015 el #[b “Manual de Señalización Vial, Dispositivos Uniformes para la Regulación del Tránsito en Calles, Carreteras y Ciclorrutas de Colombia”], el cual es un libro técnico que cuenta con 888 páginas de las cuales se puede extractar la siguiente información sobre las señales de tránsito.
+      img.mb-3.mb-md-0.mx-auto(src='@/assets/curso/temas/tema1/img-9.svg' data-aos="fade-right" style="max-width: 85px")
+      p.col-md.mb-0.ps-md-4(data-aos="fade-left") El Ministerio de Transporte, como autoridad suprema de tránsito en Colombia, ha reglamentado mediante la Resolución 1885 de 2015 el #[b “Manual de Señalización Vial, Dispositivos Uniformes para la Regulación del Tránsito en Calles, Carreteras y Ciclorrutas de Colombia”], el cual es un libro técnico que cuenta con 888 páginas de las cuales se puede extractar la siguiente información sobre las señales de tránsito.
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
-        img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;")
-        h4.col.ps-3.mb-0.text-white Señales verticales
+        img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;" data-aos="fade-right")
+        h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Señales verticales
 
     .d-flex.flex-wrap.mb-5
       .col-xl-6.order-2.order-xl-1
-        p.mb-0.pe-xl-4 Estas reglamentan las limitaciones, prohibiciones, restricciones, advierten de peligros, informan acerca de rutas, direcciones, destinos y sitios de interés se clasifican de acuerdo a la función que desempeñan y pueden ser reglamentarias, preventivas, informativas y transitorias. 
-      img.col-xl-6.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto(src='@/assets/curso/temas/tema1/img-10.png' style="max-width: 610px;")
+        p.mb-0.pe-xl-4(data-aos="fade-right") Estas reglamentan las limitaciones, prohibiciones, restricciones, advierten de peligros, informan acerca de rutas, direcciones, destinos y sitios de interés se clasifican de acuerdo a la función que desempeñan y pueden ser reglamentarias, preventivas, informativas y transitorias. 
+      img.col-xl-6.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto(src='@/assets/curso/temas/tema1/img-10.png' data-aos="fade-left" style="max-width: 610px;")
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
-        img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;")
-        h4.col.ps-3.mb-0.text-white Señales reglamentarias
+        img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;" data-aos="fade-right")
+        h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Señales reglamentarias
 
     .d-flex.flex-wrap.mb-5
       .col-xl-6.order-2.order-xl-1
-        p.mb-0.pe-xl-4 Son 58 y su finalidad es notificar las prioridades en el uso de las vías, prohibiciones, restricciones, obligaciones y autorizaciones existentes, donde su transgresión constituye una infracción de tránsito, presentando su clasificación. En el numeral 2.2 Señales reglamentarias del Manual de señalización vial, dentro de los anexos, se pueden encontrar más información y significados de cada sigla
-      img.col-xl-6.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto(src='@/assets/curso/temas/tema1/img-11.png' style="max-width: 610px;")
+        p.mb-0.pe-xl-4(data-aos="fade-right") Son 58 y su finalidad es notificar las prioridades en el uso de las vías, prohibiciones, restricciones, obligaciones y autorizaciones existentes, donde su transgresión constituye una infracción de tránsito, presentando su clasificación. En el numeral 2.2 Señales reglamentarias del Manual de señalización vial, dentro de los anexos, se pueden encontrar más información y significados de cada sigla
+      img.col-xl-6.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto(src='@/assets/curso/temas/tema1/img-11.png' data-aos="fade-left" style="max-width: 610px;")
     
     .tabla-a.color-acento-botones.mb-5 
-      table
+      table(data-aos="fade-right")
         thead
           tr
             th.ps-5.col-4.text-start Clasificación de las Señales reglamentarias 
@@ -353,9 +354,9 @@
           tr
             td.ps-5 De autorización
             td.ps-4 SR-34, SR40,SR42.
-    p.mb-5 A continuación se exponen en el siguiente recurso los ejemplos de cada una de las señales reglamentarias de prohibición:
+    p.mb-5(data-aos="fade-right") A continuación se exponen en el siguiente recurso los ejemplos de cada una de las señales reglamentarias de prohibición:
 
-    SlyderF.mb-5(columnas="col-md-6 col-lg-4")
+    SlyderF.mb-5(columnas="col-md-6 col-lg-4" data-aos="fade-left")
       .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FEF0DE")
         img.mb-4.mx-auto(src='@/assets/curso/temas/tema1/sl2-1.svg' style="max-width: 190px")
         h4.text-center(style="color: black") Señales de prohibición primer grupo
@@ -390,18 +391,18 @@
             span Ver señales
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
-        img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;")
-        h4.col.ps-3.mb-0.text-white Señales preventivas
+        img(src='@/assets/curso/temas/tema1/icon-titulo.svg' data-aos="fade-right" style="max-width: 32px; margin-left: -16px;")
+        h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Señales preventivas
     
     .d-flex.flex-wrap.mb-5
       .col-xl-6.order-2.order-xl-1
-        p.mb-0.pe-xl-4 También denominadas señales de advertencia de peligro están diseñadas para indicar previamente al conductor la existencia de riesgos o situaciones imprevistas de forma permanente o temporal presentadas en la vía o zonas adyacentes.
-      img.col-xl-6.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto(src='@/assets/curso/temas/tema1/img-12.png' style="max-width: 610px;")
+        p.mb-0.pe-xl-4(data-aos="fade-right") También denominadas señales de advertencia de peligro están diseñadas para indicar previamente al conductor la existencia de riesgos o situaciones imprevistas de forma permanente o temporal presentadas en la vía o zonas adyacentes.
+      img.col-xl-6.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto(src='@/assets/curso/temas/tema1/img-12.png' data-aos="fade-left" style="max-width: 610px;")
     
     p.mb-5 De acuerdo con el origen de los riesgos que previenen, las señales preventivas se clasifican en:
 
     .tabla-a.color-acento-botones.mb-5 
-      table
+      table(data-aos="fade-right")
         thead
           tr
             th.ps-4.col-4.text-start Clasificación de las Señales preventivas 
@@ -440,9 +441,9 @@
                 | #[b Ráfagas de viento lateral:] SP-73.
                 br
                 | #[b Desnivel severo:] SP-74.
-    p.mb-5 A continuación puede observar la representación visual de cada una de las señales preventivas sobre características geométricas de la vía y su clasificación mencionadas en la tabla anterior.
+    p.mb-5(data-aos="fade-right") A continuación puede observar la representación visual de cada una de las señales preventivas sobre características geométricas de la vía y su clasificación mencionadas en la tabla anterior.
 
-    SlyderF.mb-5(columnas="col-md-6 col-lg-4")
+    SlyderF.mb-5(columnas="col-md-6 col-lg-4" data-aos="fade-left")
       .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FFF5C5")
         img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-1.svg' style="max-width: 190px")
         h4.mt-4.text-center(style="color: black") Señales preventivas primer grupo
@@ -503,59 +504,59 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
-        img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;")
-        h4.col.ps-3.mb-0.text-white Señales informativas
+        img(src='@/assets/curso/temas/tema1/icon-titulo.svg' data-aos="fade-right" style="max-width: 32px; margin-left: -16px;")
+        h4.col.ps-3.mb-0.text-white(data-aos="fade-left") Señales informativas
     
     .d-flex.flex-wrap.mb-5
       .col-xl-6.order-2.order-xl-1
-        p.mb-0.pe-xl-4 Dan información acerca de distancias a ciudades y localidades, kilómetros de rutas, nombres de calles, lugares de interés turístico, servicios al usuario, entre otros para llegar de manera segura, simple y directa a nuestros destinos.
-      img.col-xl-6.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto(src='@/assets/curso/temas/tema1/img-13.png' style="max-width: 610px;")
+        p.mb-0.pe-xl-4(data-aos="fade-right") Dan información acerca de distancias a ciudades y localidades, kilómetros de rutas, nombres de calles, lugares de interés turístico, servicios al usuario, entre otros para llegar de manera segura, simple y directa a nuestros destinos.
+      img.col-xl-6.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto(src='@/assets/curso/temas/tema1/img-13.png' data-aos="fade-left" style="max-width: 610px;")
     
-    p.mb-5 A continuación se verá la representación visual de cada una de las señales informativas de distancias a ciudades y localidades.
+    p.mb-5(data-aos="fade-right") A continuación se verá la representación visual de cada una de las señales informativas de distancias a ciudades y localidades.
     
     .d-flex.flex-wrap.align-items-stretch.mb-5
       .d-flex.col-xl-4.px-2.mb-4
         .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FEE3C0")
-          img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-1.svg' style="max-width: 190px")
+          img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-1.svg' data-aos="fade-left" style="max-width: 190px")
           .w-100.mt-4.mb-auto
             h4.text-center(style="color: black") Señales informativas primer grupo
             ul.lista-ul.mb-3.w-100
-              li.d-flex
+              li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
                 p.mb-0.ps-2.col(style="color: black") Direcciones hacia destinos, calles o rutas.
-              li.d-flex
+              li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
                 p.mb-0.ps-2.col(style="color: black") Hacia dónde conduce la vía.
-              li.d-flex
+              li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
                 p.mb-0.ps-2.col(style="color: black") Enlaces o empalmes con otras vías.
-              li.d-flex
+              li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
                 p.mb-0.ps-2.col(style="color: black") Carriles apropiados para cada destino.
-              li.d-flex
+              li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
                 p.mb-0.ps-2.col(style="color: black") Inicio de la salida a otras vías.
-              li.d-flex
+              li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
                 p.mb-0.ps-2.col(style="color: black") Distancias a que se encuentran los destinos.
-              li.d-flex
+              li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
                 p.mb-0.ps-2.col(style="color: black") Hito kilométrico a lo largo de la vía.
-              li.d-flex
+              li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
@@ -566,31 +567,34 @@
 
       .d-flex.col-xl-4.px-2.mb-4
         .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FEE3C0")
-          img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-2.svg' style="max-width: 190px")
+          img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-2.svg' data-aos="fade-left" style="max-width: 190px")
           .w-100.mt-4.mb-auto
-            h4.text-center(style="color: black") Señales Informativas segundo grupo
-            p.mb-4.text-center(style="color: black") Servicios generales.
+            h4.text-center(style="color: black" data-aos="fade-right") Señales Informativas segundo grupo
+            p.mb-4.text-center(style="color: black" data-aos="fade-right") Servicios generales.
           .d-flex.mt-auto.mb-0
             a.boton.boton-modal-sl(@click="modal10 = true;")
               span Ver señales
       
       .d-flex.col-xl-4.px-2.mb-4
         .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FEE3C0")
-          img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-3.svg' style="max-width: 190px")
+          img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-3.svg' data-aos="fade-left" style="max-width: 190px")
           .w-100.mt-4.mb-auto
-            h4.text-center(style="color: black") Señales informativas tercer grupo
+            h4.text-center(style="color: black" data-aos="fade-right") Señales informativas tercer grupo
             ul.lista-ul.mb-3.w-100
-              li.d-flex
+            h4.text-center(style="color: black" data-aos="fade-right") Señales informativas tercer grupo
+              li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
                 p.mb-0.ps-2.col(style="color: black") Lugares de atractivo turístico existentes en las inmediaciones de la vía.
-              li.d-flex
+            h4.text-center(style="color: black" data-aos="fade-right") Señales informativas tercer grupo
+              li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
                 p.mb-0.ps-2.col(style="color: black") Nombres de ciudades, ríos, puentes, calles, parques, lugares históricos y otros.
-              li.d-flex
+            h4.text-center(style="color: black" data-aos="fade-right") Señales informativas tercer grupo
+              li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
@@ -600,18 +604,18 @@
               span Ver señales
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
-        img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;")
-        h4.col.ps-3.mb-0.text-white Demarcaciones
+        img(src='@/assets/curso/temas/tema1/icon-titulo.svg' data-aos="fade-right" style="max-width: 32px; margin-left: -16px;")
+        h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Demarcaciones
     
     .d-flex.flex-wrap.mb-5
-      img.col-lg-4.mb-4.mb-lg-0.mx-auto(src='@/assets/curso/temas/tema1/img-14.png' style="max-width: 400px;")
+      img.col-lg-4.mb-4.mb-lg-0.mx-auto(src='@/assets/curso/temas/tema1/img-14.png' data-aos="fade-right" style="max-width: 400px;")
       .col-lg-8
-        p.mb-0.ps-lg-4 Se conocen como demarcaciones la aplicación de marcas viales conformadas por líneas, flechas, símbolos y letras que se adhieren sobre el pavimento, bordillos o sardineles y estructuras de las vías de circulación o adyacentes a ellas, así como a los dispositivos que se colocan sobre la superficie de rodadura para regular, canalizar el tránsito o indicar la presencia de obstáculos.
+        p.mb-0.ps-lg-4(data-aos="fade-left") Se conocen como demarcaciones la aplicación de marcas viales conformadas por líneas, flechas, símbolos y letras que se adhieren sobre el pavimento, bordillos o sardineles y estructuras de las vías de circulación o adyacentes a ellas, así como a los dispositivos que se colocan sobre la superficie de rodadura para regular, canalizar el tránsito o indicar la presencia de obstáculos.
           br
           br
           |A continuación, se expone la aplicación de marcas viales por líneas, flechas, símbolos, letras y su clasificación, así:
     
-    figure
+    figure(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
