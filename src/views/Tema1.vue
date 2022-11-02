@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Aspectos relacionados con el tránsito
-    p.mb-5(data-aos="fade-right") Para facilitar la movilidad de la población, es necesaria la adecuación de una infraestructura vial que permita el desplazamiento seguro a las personas.
+    p.mb-5(data-aos="fade-right") Para facilitar la movilidad de la población, es necesaria la adecuación de una infraestructura vial que permita el desplazamiento seguro a las personas. 
       |La Ley de Tránsito en Colombia detalla cada una de las normas que deben cumplir los conductores (de carros particulares, servicio público, motos y otros) y peatones.
       br
       br

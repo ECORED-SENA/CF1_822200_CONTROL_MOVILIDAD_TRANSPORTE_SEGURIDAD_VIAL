@@ -122,7 +122,7 @@
     
     .bg-texto-left-img.mb-1
       img.mx-auto.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img-11.png' data-aos="fade-right" style="max-width: 364px")
-      p.col-lg.mb-0.ps-md-4(data-aos="fade-left") Es necesario tener claridad sobre algunos conceptos como “radar” (Radio Detection and Ranging - detección y rango de radio), por lo cual el término correcto para utilizar en el lenguaje español es el de “cinemómetro” el cual según la RAE (2022), se define como un aparato para medir la velocidad.
+      p.col-lg.mb-0.ps-md-4(data-aos="fade-left") Es necesario tener claridad sobre algunos conceptos como “radar” (#[em Radio Detection and Ranging] - detección y rango de radio), por lo cual el término correcto para utilizar en el lenguaje español es el de “cinemómetro” el cual según la RAE (2022), se define como un aparato para medir la velocidad.
         br
         br
         |El funcionamiento de un cinemómetro consiste en que el dispositivo al ser activado lanza un infrarrojo que emplea a una frecuencia de 33 MHz y una longitud de onda de 904 mm, donde el haz de láser que llega al coche refleja un pulso de luz infrarroja que regresa al cinemómetro. 
