@@ -91,7 +91,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Técnicas de uso en equipos para pruebas de alcohol',
-            hash: 't_2_1',
+            hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
@@ -387,6 +387,31 @@ export default {
         cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Ilustración',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaimes',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Validación audiovisual',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
       },
     ],
     gestoresRepositorio: [

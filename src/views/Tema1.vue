@@ -109,7 +109,7 @@
               img(src='@/assets/curso/temas/tema1/sl-6.png')
     Separador
 
-    .titulo-segundo.color-secundario
+    .titulo-segundo.color-acento-contenido
       h2#t_1_1 1.1 Aspectos normativos
     
     .d-flex.flex-wrap.align-items-center.mb-5
@@ -132,11 +132,11 @@
       h5 Figura 2.
       span Aspectos normativos del tránsito y el transporte en Colombia
 
-    .d-flex.flex-wrap.mb-4
+    .d-flex.flex-wrap.mb-5.mb-lg-4
       h4.px-4.py-2(style="background-color: #FFD817" data-aos="fade-right") CONSTITUCIÓN POLÍTICA DE COLOMBIA 
 
     .d-flex.flex-wrap.mb-5
-      .col-lg-7.d-flex.flex-wrap.mt-auto.order-2.order-lg-1.bg-edit-1
+      .col-lg-7.d-flex.flex-wrap.mt-4.order-2.order-lg-1.bg-edit-1
         .d-flex.flex-wrap.mb-4(style="margin-top: -20px; max-height: 40px")
           h3.px-3.py-2(style="background-color: black; color: white;" data-aos="fade-up") Tránsito
         .px-4.mb-auto
@@ -239,10 +239,10 @@
               p.mb-0.ps-3 #[b Ley 1696 de 2013] establece sanciones penales y administrativas para la sanción de la embriaguez y otras sustancias.
 
       .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0.px-lg-3.mx-auto
-        img(src="@/assets/curso/temas/tema1/img-5.svg" data-aos="fade-left" style="z-index: 2; position: relative;")
+        img(src="@/assets/curso/temas/tema1/img-5.svg" data-aos="fade-left" style="z-index: 2; position: relative; margin-top: -3rem")
   
     .d-flex.flex-wrap.mb-4(style="margin-top: -20px; max-height: 40px")
-      h3.px-3.py-2(style="background-color: black; color: white;" data-aos="fade-right") Transporte
+      h4.px-3.py-2(style="background-color: black; color: white;" data-aos="fade-right") Transporte
     
     SlyderF.mb-5(columnas="col-md-6 col-lg-4 col-xl-3" data-aos="fade-left")
       .tarjeta.w-100.color-acento-botones.p-4(style="background-color: #FCC781")
@@ -299,7 +299,7 @@
     p.fw-bold(data-aos="fade-right") Fuentes de información Normatividad y Legislación Colombiana. Elaborado por Lino Quiroga 
     Separador
 
-    .titulo-segundo.color-secundario
+    .titulo-segundo.color-acento-contenido
       h2#t_1_2 1.2  Manual de señalización vial
     
     .bg-texto-left.mb-5
@@ -309,7 +309,7 @@
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
         img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;" data-aos="fade-right")
-        h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Señales verticales
+        h3.col.ps-3.mb-0.text-white(data-aos="fade-right") Señales verticales
 
     .d-flex.flex-wrap.mb-5
       .col-xl-6.order-2.order-xl-1
@@ -319,7 +319,7 @@
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
         img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;" data-aos="fade-right")
-        h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Señales reglamentarias
+        h3.col.ps-3.mb-0.text-white(data-aos="fade-right") Señales reglamentarias
 
     .d-flex.flex-wrap.mb-5
       .col-xl-6.order-2.order-xl-1
@@ -392,7 +392,7 @@
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
         img(src='@/assets/curso/temas/tema1/icon-titulo.svg' data-aos="fade-right" style="max-width: 32px; margin-left: -16px;")
-        h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Señales preventivas
+        h3.col.ps-3.mb-0.text-white(data-aos="fade-right") Señales preventivas
     
     .d-flex.flex-wrap.mb-5
       .col-xl-6.order-2.order-xl-1
@@ -444,60 +444,64 @@
     p.mb-5(data-aos="fade-right") A continuación puede observar la representación visual de cada una de las señales preventivas sobre características geométricas de la vía y su clasificación mencionadas en la tabla anterior.
 
     SlyderF.mb-5(columnas="col-md-6 col-lg-4" data-aos="fade-left")
-      .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FFF5C5")
-        img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-1.svg' style="max-width: 190px")
-        h4.mt-4.text-center(style="color: black") Señales preventivas primer grupo
-        p.mb-4.text-center(style="color: black") De curvatura horizontal
+      .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.align-items-start.color-acento-botones.p-4(style="background-color: #FFF5C5")
+        div
+          img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-1.svg' style="max-width: 190px")
+          h4.mt-4.text-center(style="color: black") Señales preventivas primer grupo
+          p.mb-4.text-center(style="color: black") De curvatura horizontal
         .d-flex.mt-auto.mb-0
           a.boton.boton-modal-sl.indicador__container(@click="modal5 = true; mostrarIndicador = false;")
             span Ver señales
             .indicador--click(v-if="mostrarIndicador")
       
       .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FFF5C5")
-        img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-2.svg' style="max-width: 190px")
-        h4.mt-4.text-center(style="color: black") Señales preventivas segundo grupo
-        ul.lista-ul.mb-3.w-100
-          li.d-flex
-            <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
-              <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
-            </svg>
-            p.mb-0.ps-2.col(style="color: black") Pendientes longitudinales.
-          li.d-flex
-            <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
-              <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
-            </svg>
-            p.mb-0.ps-2.col(style="color: black") Preventivas relacionadas con la superficie de rodadura.
-          li.d-flex
-            <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
-              <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
-            </svg>
-            p.mb-0.ps-2.col(style="color: black") Preventivas sobre restricciones  físicas de la vía.
+        div
+          img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-2.svg' style="max-width: 190px")
+          h4.mt-4.text-center(style="color: black") Señales preventivas segundo grupo
+          ul.lista-ul.mb-3.w-100
+            li.d-flex
+              <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p.mb-0.ps-2.col(style="color: black") Pendientes longitudinales.
+            li.d-flex
+              <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p.mb-0.ps-2.col(style="color: black") Preventivas relacionadas con la superficie de rodadura.
+            li.d-flex
+              <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p.mb-0.ps-2.col(style="color: black") Preventivas sobre restricciones  físicas de la vía.
         .d-flex.mt-auto.mb-0
           a.boton.boton-modal-sl(@click="modal6 = true;")
             span Ver señales
       
       .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FFF5C5")
-        img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-3.svg' style="max-width: 190px")
-        h4.mt-4.text-center(style="color: black") Señales preventivas tercer grupo
-        p.mb-4.text-center(style="color: black") De curvatura horizontal
+        div
+          img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-3.svg' style="max-width: 190px")
+          h4.mt-4.text-center(style="color: black") Señales preventivas tercer grupo
+          p.mb-4.text-center(style="color: black") De curvatura horizontal
         .d-flex.mt-auto.mb-0
           a.boton.boton-modal-sl(@click="modal7 = true;")
             span Ver señales
       
       .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FFF5C5")
-        img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-4.svg' style="max-width: 190px")
-        h4.mt-4.text-center(style="color: black") Señales preventivas cuarto grupo
-        ul.lista-ul.mb-3.w-100
-          li.d-flex
-            <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
-              <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
-            </svg>
-            p.mb-0.ps-2.col(style="color: black") Preventivas sobre características operativas de la vía.
-          li.d-flex
-            <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
-              <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
-            </svg>
-            p.mb-0.ps-2.col(style="color: black") Preventivas sobre situaciones especiales.
+        div
+          img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-4.svg' style="max-width: 190px")
+          h4.mt-4.text-center(style="color: black") Señales preventivas cuarto grupo
+          ul.lista-ul.mb-3.w-100
+            li.d-flex
+              <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p.mb-0.ps-2.col(style="color: black") Preventivas sobre características operativas de la vía.
+            li.d-flex
+              <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p.mb-0.ps-2.col(style="color: black") Preventivas sobre situaciones especiales.
         .d-flex.mt-auto.mb-0
           a.boton.boton-modal-sl(@click="modal8 = true;")
             span Ver señales
@@ -505,7 +509,7 @@
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
         img(src='@/assets/curso/temas/tema1/icon-titulo.svg' data-aos="fade-right" style="max-width: 32px; margin-left: -16px;")
-        h4.col.ps-3.mb-0.text-white(data-aos="fade-left") Señales informativas
+        h3.col.ps-3.mb-0.text-white(data-aos="fade-left") Señales informativas
     
     .d-flex.flex-wrap.mb-5
       .col-xl-6.order-2.order-xl-1
@@ -517,9 +521,9 @@
     .d-flex.flex-wrap.align-items-stretch.mb-5
       .d-flex.col-xl-4.px-2.mb-4
         .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FEE3C0")
-          img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-1.svg' data-aos="fade-left" style="max-width: 190px")
-          .w-100.mt-4.mb-auto
-            h4.text-center(style="color: black") Señales informativas primer grupo
+          .w-100.mb-auto
+            img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-1.svg' data-aos="fade-left" style="max-width: 190px")
+            h4.text-center.mt-4(style="color: black") Señales informativas primer grupo
             ul.lista-ul.mb-3.w-100
               li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
@@ -567,9 +571,9 @@
 
       .d-flex.col-xl-4.px-2.mb-4
         .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FEE3C0")
-          img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-2.svg' data-aos="fade-left" style="max-width: 190px")
-          .w-100.mt-4.mb-auto
-            h4.text-center(style="color: black" data-aos="fade-right") Señales Informativas segundo grupo
+          .w-100.mb-auto
+            img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-2.svg' data-aos="fade-left" style="max-width: 190px")
+            h4.mt-4.text-center(style="color: black" data-aos="fade-right") Señales Informativas segundo grupo
             p.mb-4.text-center(style="color: black" data-aos="fade-right") Servicios generales.
           .d-flex.mt-auto.mb-0
             a.boton.boton-modal-sl(@click="modal10 = true;")
@@ -577,9 +581,9 @@
       
       .d-flex.col-xl-4.px-2.mb-4
         .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.color-acento-botones.p-4(style="background-color: #FEE3C0")
-          img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-3.svg' data-aos="fade-left" style="max-width: 190px")
-          .w-100.mt-4.mb-auto
-            h4.text-center(style="color: black" data-aos="fade-right") Señales informativas tercer grupo
+          .w-100.mb-auto
+            img.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/tj-3.svg' data-aos="fade-left" style="max-width: 190px")
+            h4.mt-4.text-center(style="color: black" data-aos="fade-right") Señales informativas tercer grupo
             ul.lista-ul.mb-3.w-100
             h4.text-center(style="color: black" data-aos="fade-right") Señales informativas tercer grupo
               li.d-flex(data-aos="fade-right")
@@ -605,7 +609,7 @@
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
         img(src='@/assets/curso/temas/tema1/icon-titulo.svg' data-aos="fade-right" style="max-width: 32px; margin-left: -16px;")
-        h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Demarcaciones
+        h3.col.ps-3.mb-0.text-white(data-aos="fade-right") Demarcaciones
     
     .d-flex.flex-wrap.mb-5
       img.col-lg-4.mb-4.mb-lg-0.mx-auto(src='@/assets/curso/temas/tema1/img-14.png' data-aos="fade-right" style="max-width: 400px;")

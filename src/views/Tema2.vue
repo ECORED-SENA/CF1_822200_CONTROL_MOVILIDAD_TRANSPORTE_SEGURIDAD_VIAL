@@ -19,7 +19,7 @@
           |Son autoridades de tránsito en su orden, las siguientes:
     Separador
 
-    .titulo-segundo.color-secundario
+    .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1 Autoridades de tránsito
     
     .bg-texto-right.mb-5
@@ -50,12 +50,12 @@
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
         img(src='@/assets/curso/temas/tema1/icon-titulo.svg' data-aos="fade-right" style="max-width: 32px; margin-left: -16px;")
-        h4.col.ps-3.py-1.mb-0.text-white(data-aos="fade-right") Señales corporales de la autoridad de tránsito de control operativo.
+        h3.col.ps-3.py-1.mb-0.text-white(data-aos="fade-right") Señales corporales de la autoridad de tránsito de control operativo.
     
     p.mb-5(data-aos="fade-right") Se encuentran enmarcadas jurídicamente en el artículo 116 del Código Nacional de Tránsito (Ley 769 de 2002), el cual establece que las autoridades encargadas de controlar el tránsito deben hacer las señales de la siguiente manera:
 
     .row.mb-5
-      .col-12.col-lg-6.col-xl-4.mb-4.mx-auto(style="max-width: 416px" data-aos="fade-right")
+      .col-12.col-lg-6.col-xl-4.mb-4.mx-auto(style="max-width: 416px; min-height: 466px" data-aos="fade-right")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -97,7 +97,7 @@
                   </svg>
                   p.mb-0.ps-3 Para dirigir el tránsito durante la noche, los agentes de tránsito se proveerán de bastones luminosos y de prendas reflectivas.
 
-      .col-12.col-lg-6.col-xl-4.mb-4.mx-auto(style="max-width: 416px" data-aos="fade-right")
+      .col-12.col-lg-6.col-xl-4.mb-4.mx-auto(style="max-width: 416px; min-height: 466px" data-aos="fade-right")
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-6.svg')})`}"
@@ -114,7 +114,7 @@
                   </svg>
                   p.mb-0.ps-3 #[b Regular:] hace referencia a la acción de establecer orden frente a una situación o acción que afecte la movilidad, la autoridad de tránsito se desplaza desde el frente de una calle al de la otra, cada vez que autoriza el paso, ubicándose en la prolongación de la línea del andén, dejando libre la circulación de la otra vía.
 
-      .col-12.col-lg-6.col-xl-4.mb-4.mx-auto(style="max-width: 416px" data-aos="fade-right")
+      .col-12.col-lg-6.col-xl-4.mb-4.mx-auto(style="max-width: 416px; min-height: 466px" data-aos="fade-right")
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-7.svg')})`}"
@@ -139,7 +139,7 @@
                   </svg>
                   p.mb-0.ps-3 El cambio de vía libre a cerrada o viceversa será la señal ejecutiva, la cual consiste en pasar desde la posición preventiva flexionando el codo derecho u izquierdo según el sentido hacia donde quiera dirigir el tránsito, hacia el pecho de forma que la palma de la mano se acerque hacia el pecho.
     Separador
-    .titulo-segundo.color-secundario
+    .titulo-segundo.color-acento-contenido
       h2#t_2_2 2.2  Controles operativos
     
     p.mb-5(data-aos="fade-right") Las autoridades de tránsito de Colombia realizan controles operativos del tránsito en cada una de las jurisdicciones donde sean nombrados mediante acto administrativo o jurisdicción que le permita la ley, desarrollando procedimientos tipificados a la luz de la norma, para exigir el cumplimiento de la normatividad de tránsito, transporte y policía judicial en eventos de accidentes de tránsito.
@@ -256,7 +256,7 @@ export default {
     top: 0
     height: 100%
     width: 400px
-    background-color: #E8E8E8
+    background-color: #E8E8E8 !important
   @media (max-width: 768px)
     &::after
       width: 100%

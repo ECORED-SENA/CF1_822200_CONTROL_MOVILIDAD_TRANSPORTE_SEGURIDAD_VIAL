@@ -38,11 +38,11 @@
                 td(style="background-color: #F6F6F6; border-right: 1px solid #707070; border-top: none; border-bottom: 1px solid #707070;")
                 td(style="background-color: #F6F6F6; border-right: 1px solid #707070; border-top: none; border-bottom: 1px solid #707070;") El organismo de tránsito adelantará el proceso administrativo consecuente a la infracción según normatividad vigente.
       img.col-xl-4.order-1.order-xl-2.mx-auto.mb-4.mb-xl-0(src="@/assets/curso/temas/tema3/img-2.svg" data-aos="fade-left" style="max-width: 400px")
-
-    .titulo-segundo.color-secundario
+    Separador
+    .titulo-segundo.color-acento-contenido
       h2#t_3_1 3.1 Técnicas de uso en equipos para pruebas de alcohol
     
-    .bg-texto-right.ps-4.ps-md-0.mb-4.mb-md-0
+    .bg-texto-right.ps-4.ps-md-0.mb-5.mb-xl-0
       p.col-md.mb-0.order-2.order-md-1(data-aos="fade-right") Para iniciar este tema es necesario tener claro el concepto de embriaguez de acuerdo al artículo 2° del Código Nacional de Tránsito (Ley 769 del 2002), la cual se define como “el estado de alteración transitoria de las condiciones físicas y mentales, causada por intoxicación aguda que no permite una adecuada realización de actividades de riesgo” (p. 7), aclarando que la embriaguez se puede clasificar en alcohólica y no alcohólica.
       img.mb-3.mb-md-0.mx-auto.order-1.order-md-2(src='@/assets/curso/temas/tema3/decorador-1.svg' data-aos="fade-left" style="max-width: 85px")
     p.mb-5(data-aos="fade-right") La prueba de alcoholemia determina cuánto alcohol hay en la sangre, por lo que es importante conocer el proceso, así:
@@ -69,9 +69,9 @@
             h4(style="background-color: black; border-radius: 100px; padding: .2rem 1.5rem; color: white;") Fase analítica
           p(style="background-color: white; border-radius: 14px; padding: 1rem; min-height: 103px").mb-3.w-100 Utilización de una boquilla desechable, nueva y empacada individualmente para cada medición.
           p(style="background-color: white; border-radius: 14px; padding: 1rem; min-height: 127px").mb-0.w-100 Dar instrucciones al examinado para que respire, retenga el aire y luego sople de manera sostenida dentro de la boquilla hasta que se le indique.
-    Separador
 
-    .titulo-segundo.color-secundario
+    Separador
+    .titulo-segundo.color-acento-contenido
       h2#t_3_2 3.2  Técnicas de uso en equipos para pruebas de drogas
     
     .d-flex.flex-wrap.align-items-center.mb-5
@@ -112,8 +112,10 @@
           h4.text-start Actividad 4 - #[span(style="font-weight: normal") Pruebas paraclínicas complementarias]
           p.text-start Se define el tipo de prueba que se va a realizar y las muestras por tomar, con base en la información integrada, obtenida a partir de los documentos enviados por la autoridad, la anamnesis realizada al examinado(a) y el examen clínico.
     p.mb-5(data-aos="fade-right") Es importante considerar este procedimiento ya que puede haber personas en estado de embriaguez por sustancias alucinógenas, alcohólicas, médicas u otras que requieren ser verificadas por un profesional en medicina.
+    
     Separador
-    .titulo-segundo.color-secundario
+
+    .titulo-segundo.color-acento-contenido
       h2#t_3_3 3.3  Características y tipos de radares de velocidad 
     
     .titulo-sexto.color-acento-contenido
@@ -133,7 +135,7 @@
     p.mb-5(data-aos="fade-right") Las clases o tipos de cinemómetros se presentan en el siguiente mapa:
     img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema3/img-12.svg' data-aos="fade-left")
     Separador
-    .titulo-segundo.color-secundario
+    .titulo-segundo.color-acento-contenido
       h2#t_3_4 3.4  Características del informe policial de accidente de tránsito IPAT
     
     .d-flex.flex-wrap.align-items-center.mb-5
@@ -192,7 +194,7 @@
         br
         |Por lo anterior para el diligenciamiento de este formato es necesario seguir todas las indicaciones establecidas en el manual de diligenciamiento del informe policial de accidentes de tránsito IPAT, siendo este un documento de consulta obligatoria en cualquier caso, el cual se invita a consultar a detalle.
     Separador
-    .titulo-segundo.color-secundario
+    .titulo-segundo.color-acento-contenido
       h2#t_3_5 3.5  Técnicas de diligenciamiento de los Formatos Policía Judicial (FPJ) en eventos de tránsito
     
     .d-flex.flex-wrap.align-items-center.mb-5
@@ -251,31 +253,31 @@
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta
-                  span 1
+                  span.fw-bold(style="color: black") 1
                 | La Procuraduría General de la Nación.
               li 
                 .lista-ol--cuadro__vineta
-                  span 2
+                  span.fw-bold(style="color: black") 2
                 | La Contraloría General de la República.
               li 
                 .lista-ol--cuadro__vineta
-                  span 3
+                  span.fw-bold(style="color: black") 3
                 | Las autoridades de tránsito.
               li 
                 .lista-ol--cuadro__vineta
-                  span 4
+                  span.fw-bold(style="color: black") 4
                 | Las entidades públicas que ejerzan funciones de vigilancia y control.
               li 
                 .lista-ol--cuadro__vineta
-                  span 5
+                  span.fw-bold(style="color: black") 5
                 | Los directores nacional y regional del Inpec.
               li 
                 .lista-ol--cuadro__vineta
-                  span 6
+                  span.fw-bold(style="color: black") 6
                 | Los alcaldes.
               li 
                 .lista-ol--cuadro__vineta
-                  span 7
+                  span.fw-bold(style="color: black") 7
                 | Los inspectores de policía.
           .col-md-6.d-flex.flex-wrap.justify-content-center
               img.col.col-md-6.mb-4.mt-auto.px-3(src='@/assets/curso/temas/tema3/img-22.png' style="max-width: 213px")
@@ -487,7 +489,7 @@ export default {
     top: 0
     height: 100%
     width: 400px
-    background-color: #FFEDC5
+    background-color: #FFEDC5 !important
   @media (max-width: 768px)
     &::after
       width: 100%
