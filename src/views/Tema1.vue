@@ -138,7 +138,7 @@
     .d-flex.flex-wrap.mb-5
       .col-lg-7.d-flex.flex-wrap.mt-4.order-2.order-lg-1.bg-edit-1
         .d-flex.flex-wrap.mb-4(style="margin-top: -20px; max-height: 40px")
-          h3.px-3.py-2(style="background-color: black; color: white;" data-aos="fade-up") Tránsito
+          h4.px-3.py-2(style="background-color: black; color: white;" data-aos="fade-up") Tránsito
         .px-4.mb-auto
           p.mb-4(data-aos="fade-right") #[b ARTÍCULO 24.] Todo colombiano, con las limitaciones que establezca la ley, tiene derecho a circular libremente por el territorio nacional.
           ul.lista-ul.mb-3
@@ -590,19 +590,17 @@
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
-                p.mb-0.ps-2.col(style="color: black") Lugares de atractivo turístico existentes en las inmediaciones de la vía.
-            h4.text-center(style="color: black" data-aos="fade-right") Señales informativas tercer grupo
+                p.mb-0.ps-2.col.text-start(style="color: black") Lugares de atractivo turístico existentes en las inmediaciones de la vía.
               li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
-                p.mb-0.ps-2.col(style="color: black") Nombres de ciudades, ríos, puentes, calles, parques, lugares históricos y otros.
-            h4.text-center(style="color: black" data-aos="fade-right") Señales informativas tercer grupo
+                p.mb-0.ps-2.col.text-start(style="color: black") Nombres de ciudades, ríos, puentes, calles, parques, lugares históricos y otros.
               li.d-flex(data-aos="fade-right")
                 <svg style="max-width: 14px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
-                p.mb-0.ps-2.col(style="color: black") Cualquier otra información de importancia para los conductores.
+                p.mb-0.ps-2.col.text-start(style="color: black") Cualquier otra información de importancia para los conductores.
           .d-flex.mt-auto.mb-0
             a.boton.boton-modal-sl(@click="modal11 = true;")
               span Ver señales

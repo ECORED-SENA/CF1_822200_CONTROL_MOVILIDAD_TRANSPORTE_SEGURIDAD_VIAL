@@ -22,8 +22,8 @@
     .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1 Autoridades de tránsito
     
-    .bg-texto-right.mb-5
-      p.order-2.order-md-1.col-md.mb-0.ps-md-4(data-aos="fade-right") Las autoridades de tránsito son servidores públicos de diferentes entidades y funciones, a cargo de velar por la seguridad vial de las personas y las cosas que se encuentran o utilizan las vías públicas y privadas abiertas al público para su movilización. Sus funciones serán de carácter regulatorio y sancionatorio y sus acciones deben ser orientadas a la prevención y la asistencia técnica y humana a los usuarios de las vías. 
+    .bg-texto-right.mb-5.ps-md-0
+      p.order-2.order-md-1.col-md.mb-0.pe-md-4(data-aos="fade-right") Las autoridades de tránsito son servidores públicos de diferentes entidades y funciones, a cargo de velar por la seguridad vial de las personas y las cosas que se encuentran o utilizan las vías públicas y privadas abiertas al público para su movilización. Sus funciones serán de carácter regulatorio y sancionatorio y sus acciones deben ser orientadas a la prevención y la asistencia técnica y humana a los usuarios de las vías. 
       img.mb-3.order-1.order-md-2.mb-md-0.mx-auto(src='@/assets/curso/temas/tema2/decorador-1.svg' data-aos="fade-left" style="max-width: 85px")
     
     p.mb-5(data-aos="fade-right") Se puede establecer que las autoridades de tránsito se encuentran tipificadas en el artículo 3° de la Ley 769 de 2002, la cual establece un orden jerárquico de ocho entidades establecido de la siguiente manera:
