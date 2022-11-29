@@ -54,7 +54,7 @@
           .d-flex.justify-content-start.w-100.mb-auto.mt-0
             h4(style="background-color: black; border-radius: 100px; padding: .2rem 1.5rem; color: white;") Normas
           p(style="background-color: white; border-radius: 14px; padding: 1rem; min-height: 103px").mb-3.w-100 Resolución 712 de Instituto Nacional de Medicina Legal y Ciencias Forenses - 2016.
-          p(style="background-color: white; border-radius: 14px; padding: 1rem; min-height: 127px").mb-0.w-100 #[b Resolución No.001844 -2015:] Guía para la indirecta para la alcolemia a través del aire expirado
+          p(style="background-color: white; border-radius: 14px; padding: 1rem; min-height: 127px").mb-0.w-100 #[b Resolución No.001844 -2015:] Guía para la indirecta para la alcoholemia a través del aire expirado
       .d-flex.col-md-6.col-xl-4.px-2.mb-4(data-aos="fade-right")
         .tarjeta.w-100.d-flex.flex-wrap.justify-content-center.p-4(style="background-color: #FFD817")
           img.mx-auto.mb-4(src='@/assets/curso/temas/tema3/img-4.png' style="min-height: 142px;")
@@ -94,7 +94,7 @@
       .row
         img.mb-4.mb-md-0(src='@/assets/curso/temas/tema3/img-8.svg' data-aos="fade-right" style="max-width: 105px")
         .col-12.col-md(data-aos="fade-left")
-          h4.text-start Actividad 1 - #[span(style="font-weight: normal") Examen médico forense]
+          h4.text-start Actividad 2 - #[span(style="font-weight: normal") Examen médico forense]
           p.text-start Anamnesis es el instrumento de evaluación que permite, a través de una interacción mutuamente participativa entre el perito y el examinador, obtener una información útil que sirva para la posterior generación del informe médico legal de embriaguez.
             br
             |relato de los hechos, antecedentes patológicos, psiquiátricos, farmacológicos, toxicológicos.
@@ -136,7 +136,7 @@
     img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema3/img-12.svg' data-aos="fade-left")
     Separador
     .titulo-segundo.color-acento-contenido
-      h2#t_3_4 3.4  Características del informe policial de accidente de tránsito IPAT
+      h2#t_3_4 3.4  Características del Informe Policial de Accidente de Tránsito IPAT
     
     .d-flex.flex-wrap.align-items-center.mb-5
       img.col-xl-4.mx-auto.mb-4.mb-xl-0(src="@/assets/curso/temas/tema3/img-13.png" data-aos="fade-right" style="max-width: 402px")
@@ -146,7 +146,7 @@
           br
           |El formulario consta de tres hojas principales que recopilan la información del modo, tiempo y lugar del accidente de tránsito al igual que los datos de la vía, los vehículos involucrados y personas en su calidad de conductor, pasajero o peatón, donde, al final de la segunda hoja del informe, el investigador que lo diligencia está obligado a determinar al menos una hipótesis que permita generar estadísticas que lleven a determinar cuál es el factor repetitivo que incide en los accidentes, tramos o puntos de mayor accidentalidad. 
     .container-edit-v1.col-xl-8.mx-auto.mb-5
-      p.p-md-3.mb-0.col-md.order-2.order-md-1(data-aos="fade-right") El informe de policía de accidente de tránsito IPAT es de obligatorio diligenciamiento en cualquier tipo de accidente de tránsito que ocurra en Colombia.
+      p.p-md-3.mb-0.col-md.order-2.order-md-1(data-aos="fade-right") El Informe de Policía de Accidente de Tránsito IPAT es de obligatorio diligenciamiento en cualquier tipo de accidente de tránsito que ocurra en Colombia.
       img.mx-auto.order-1.order-md-2.mb-4.mb-md-0(src="@/assets/curso/temas/tema3/img-14.svg" data-aos="fade-left" style="max-width: 84px")
     
     p.mb-5(data-aos="fade-right") A continuación se presentarán imágenes de las hojas que hacen parte del Informe de Policía de Accidente de Tránsito IPAT. 
@@ -192,7 +192,7 @@
       p.mb-0.col-md.ps-md-4(data-aos="fade-left") Para los casos de necesitar registrar más víctimas en calidad de pasajeros, acompañantes o peatones se utiliza el anexo 2 el cual tiene capacidad para el registro de seis personas más adicionales a las establecidas en las hojas 1 y 2 del formato.
         br
         br
-        |Por lo anterior para el diligenciamiento de este formato es necesario seguir todas las indicaciones establecidas en el manual de diligenciamiento del informe policial de accidentes de tránsito IPAT, siendo este un documento de consulta obligatoria en cualquier caso, el cual se invita a consultar a detalle.
+        |Por lo anterior para el diligenciamiento de este formato es necesario seguir todas las indicaciones establecidas en el manual de diligenciamiento del Informe Policial de Accidentes de Tránsito IPAT, siendo este un documento de consulta obligatoria en cualquier caso, el cual se invita a consultar a detalle.
     Separador
     .titulo-segundo.color-acento-contenido
       h2#t_3_5 3.5  Técnicas de diligenciamiento de los Formatos Policía Judicial (FPJ) en eventos de tránsito
@@ -200,15 +200,14 @@
     .d-flex.flex-wrap.align-items-center.mb-5
       img.col-xl-4.mx-auto.mb-4.mb-xl-0(src="@/assets/curso/temas/tema3/img-18.png" style="max-width: 402px")
       .col-xl-8.ps-xl-4
-        p.mb-0 En este apartado es necesario indicar que la Fiscalía General de la Nación garantiza el derecho al acceso a la justicia de los habitantes del territorio nacional, por medio de la investigación de las conductas punibles y el ejercicio de la acción penal en el desarrollo del sistema penal acusatorio SPOA (Ley 906, 2004), donde muchas entidades del Estado tienen funciones permanentes y transitorias de Policía Judicial en cada una de sus competencias, para desarrollar las labores investigativas y ayudar a la Fiscalía en sus procesos de persecución penal.
+        p.mb-0 En este apartado es necesario indicar que la Fiscalía General de la Nación garantiza el derecho al acceso a la justicia de los habitantes del territorio nacional, por medio de la investigación de las conductas punibles y el ejercicio de la acción penal en el desarrollo del Sistema Penal Oral Acusatorio SPOA (Ley 906, 2004), donde muchas entidades del Estado tienen funciones permanentes y transitorias de Policía Judicial en cada una de sus competencias, para desarrollar las labores investigativas y ayudar a la Fiscalía en sus procesos de persecución penal.
           br
           br
           |Por lo anterior, la Fiscalía expidió una serie de parámetros para que todos los funcionarios que tienen funciones de policía judicial sigan unas reglas investigativas estableciendo manuales, protocolos y formatos de trabajo para la atención de casos en cada una de las competencias. 
     
-    p.mb-5(data-aos="fade-right") En la siguiente figura se muestra de forma esquemática los órganos funcionarios que tienen funciones de policía judicial.
+    p.mb-5(data-aos="fade-right") A continuación se muestra los órganos funcionarios que tienen funciones de policía judicial.
 
     .titulo-sexto.color-acento-contenido.mb-5
-      h5 Figura 8.
       span Órganos con funciones de policía judicial en la indagación.
     h4.mb-0.text-center(data-aos="fade-right") Fiscalía General de la Nación
     p.mb-5.text-center(data-aos="fade-left") Por mandato constitucional dirige y coordina la policía judicial
@@ -301,46 +300,46 @@
       p.mb-0.col-md.ps-md-4(data-aos="fade-left") Entre los documentos doctrinales que la Fiscalía expidió se encuentran el Manual único de policía judicial, el Manual único de cadena de custodia, así como los protocolos que describen las condiciones de los procedimientos judiciales a desarrollar donde actualmente hay 58 activos y 39 formatos de policía judicial en funcionamiento para ser aplicados por los investigadores en sus procedimientos.
         br
         br
-        |Los formatos aplicados con mayor frecuencia en casos de accidentes de tránsito se presentan en la siguiente figura.
+        |Los formatos aplicados con mayor frecuencia en casos de accidentes de tránsito se presentan a continuación.
     h4.mb-5.text-center(data-aos="fade-right") Manual Único Policía Judicial
     
     .d-flex.flex-wrap
       .col-12.col-lg-4.d-flex.mb-5.mb-md-0
         .tarjeta.position-relative.w-100(style="background-color: #FFF5C5;")
-          h4.title-card-edit PROTOCOLOS FGN
+          h4.title-card-edit PROTOCOLOS FGN.
           ol.lista-ol--cuadro.position-relative.px-3.mb-4(style="padding-top: 2rem")
             li(data-aos="fade-right") 
               .lista-ol--cuadro__vineta.ps-4.pe-3(style="background-color: #FFD817; color: black")
                 span 010
-              | Observación y análisis de lugar de los hechos
+              | Observación y análisis de lugar de los hechos.
             li(data-aos="fade-right") 
               .lista-ol--cuadro__vineta.ps-4.pe-3(style="background-color: #FFD817; color: black")
                 span 013
-              | Protección preservación y entrega Lugar H
+              | Protección preservación y entrega Lugar H.
             li(data-aos="fade-right") 
               .lista-ol--cuadro__vineta.ps-4.pe-3(style="background-color: #FFD817; color: black")
                 span 016
-              | Inspección a lugar de los hechos y/o cadáver
+              | Inspección a lugar de los hechos y/o cadáver.
             li(data-aos="fade-right") 
               .lista-ol--cuadro__vineta.ps-4.pe-3(style="background-color: #FFD817; color: black")
                 span 018
-              | Medidas de bioseguridad
+              | Medidas de bioseguridad.
             li(data-aos="fade-right") 
               .lista-ol--cuadro__vineta.ps-4.pe-3(style="background-color: #FFD817; color: black")
                 span 020
-              | Fijación fotográfica
+              | Fijación fotográfica.
             li(data-aos="fade-right") 
               .lista-ol--cuadro__vineta.ps-4.pe-3(style="background-color: #FFD817; color: black")
                 span 023
-              | Fijación topográfica
+              | Fijación topográfica.
             li(data-aos="fade-right") 
               .lista-ol--cuadro__vineta.ps-4.pe-3(style="background-color: #FFD817; color: black")
                 span 028
-              | Entrevistas
+              | Entrevistas.
             li(data-aos="fade-right") 
               .lista-ol--cuadro__vineta.ps-4.pe-3(style="background-color: #FFD817; color: black")
                 span 050
-              | Registro cadena de custodia
+              | Registro cadena de custodia.
           img.px-3.pb-4.mx-auto(src="@/assets/curso/temas/tema3/img-26.png" style="max-width: 405px")
       .col-12.col-lg-8.ps-lg-4
         .tarjeta.position-relative.w-100(style="background-color: #FFF5C5;")
@@ -351,31 +350,31 @@
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 1
-                  | Reporte de inicio
+                  | Reporte de inicio.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 2
-                  | Formato único de noticia criminal
+                  | Formato único de noticia criminal.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 3
-                  | Informe ejecutivo
+                  | Informe ejecutivo.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 4
-                  | Primer responsable
+                  | Primer responsable.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 5
-                  | Captura en flagrancia
+                  | Captura en flagrancia.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 6
-                  | Derechos del capturado
+                  | Derechos del capturado.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 7
-                  | Rótulo EMP Y EF
+                  | Rótulo EMP Y EF.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 8
@@ -383,73 +382,73 @@
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 9
-                  | Inspección a lugar
+                  | Inspección a lugar.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 10
-                  | Acta inspección técnica de cadáver
+                  | Acta inspección técnica de cadáver.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 11
-                  | Informe investigador de campo
+                  | Informe investigador de campo.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 12
-                  | Solicitud de análisis
+                  | Solicitud de análisis.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 13
-                  | Informe investigador de laboratorio
+                  | Informe investigador de laboratorio.
             .col-lg-6.pe-3.d-flex
               ol.lista-ol--cuadro.position-relative.px-3.mb-0
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 14
-                  | Entrevista
+                  | Entrevista.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 16
-                  | Bosquejo topográfico IPAT
+                  | Bosquejo topográfico IPAT.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 17
-                  | Dibujo topográfico
+                  | Dibujo topográfico.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 22
-                  | Inspección a vehículo
+                  | Inspección a vehículo.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 28
-                  | Acta consentimiento
+                  | Acta consentimiento.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 30
-                  | Acta de entrega
+                  | Acta de entrega.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 32
-                  | Claqueta
+                  | Claqueta.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 34
-                  | Arraigo
+                  | Arraigo.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 35
-                  | Citación
+                  | Citación.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 36
-                  | Solicitud historia clínica
+                  | Solicitud historia clínica.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 37
-                  | Solicitud de antecedentes
+                  | Solicitud de antecedentes.
                 li(data-aos="fade-right") 
                   .lista-ol--cuadro__vineta.ps-5.pe-4(style="background-color: #FFD817; color: black")
                     span(style="min-width: 50px") FPJ 39
-                  | Solicitud de valoración médico legal
+                  | Solicitud de valoración médico legal.
     p.w-100.py-1.px-3.mb-5.mt-3(style="background-color: #E8E8E8; overflow: auto;") #[b Nota.] Tomada de #[a(href="https://www.fiscalia.gov.co/colombia/wp-content/uploads/Manual-de-Policia-Judicial-Actualizado.pdf" target="_blank") www.fiscalia.gov.co/colombia/wp-content/uploads/Manual-de-Policia-Judicial-Actualizado.pdf]
     p.mb-5(data-aos="fade-right") Con base en lo anterior, la técnica para el diligenciamiento de los formatos debe contener las formalidades legales por la intención comunicativa, la claridad y precisión en la información, lo mismo que por la objetividad (veracidad) y exactitud en la presentación de esta, donde se evidencie que el informe debe ser un instrumento de comunicación reflejo de la realidad, y de acuerdo con su contenido servir de herramienta eficaz para la autoridad competente.
 </template>

@@ -108,14 +108,15 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Características del IPAT',
+            titulo:
+              'Características del Informe Policial de Accidente de Tránsito IPAT',
             hash: 't_3_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.5',
             titulo:
-              'Técnicas de diligenciamiento de los formatos policía judicial (FPJ) en eventos de tránsito',
+              'Técnicas de diligenciamiento de los Formatos Policía Judicial (FPJ) en eventos de tránsito',
             hash: 't_3_5',
           },
         ],
@@ -205,49 +206,49 @@ export default {
   glosario: [
     {
       termino: 'CPP',
-      significado: 'Código de Procedimiento Penal.',
+      significado: ' Código de Procedimiento Penal.',
     },
     {
       termino: 'FGN',
-      significado: 'Fiscalía General de la Nación.',
+      significado: ' Fiscalía General de la Nación.',
     },
     {
       termino: 'FPJ',
-      significado: 'Formato de Policía Judicial.',
+      significado: ' Formato de Policía Judicial.',
     },
     {
       termino: 'IPAT',
-      significado: 'Informe Policial de Accidente de Tránsito.',
+      significado: ' Informe Policial de Accidente de Tránsito.',
     },
     {
       termino: 'LSD',
       significado:
-        'siglas en inglés de la dietilamida de ácido lisérgico. Esta es una droga ilegal que se presenta en forma de polvo blanco o de un líquido claro.',
+        ' Siglas en inglés de la dietilamida de ácido lisérgico. Esta es una droga ilegal que se presenta en forma de polvo blanco o de un líquido claro.',
     },
     {
       termino: 'OMS',
-      significado: 'Organización Mundial de la Salud.',
+      significado: ' Organización Mundial de la Salud.',
     },
     {
       termino: 'Radar',
       significado:
-        'palabra que procede de Radio Detection and Ranging - detección y rango de radio.',
+        'Palabra que procede de Radio Detection and Ranging - detección y rango de radio.',
     },
     {
       termino: 'RNAT',
-      significado: 'Registro Nacional de Accidentes de Tránsito.',
+      significado: ' Registro Nacional de Accidentes de Tránsito.',
     },
     {
       termino: 'SI',
-      significado: 'Señal Informativa.',
+      significado: ' Señal Informativa.',
     },
     {
       termino: 'SP',
-      significado: 'Señal Preventiva.',
+      significado: ' Señal Preventiva.',
     },
     {
       termino: 'SPOA',
-      significado: 'Sistema Penal Oral Acusatorio.',
+      significado: ' Sistema Penal Oral Acusatorio.',
     },
   ],
   referencias: [

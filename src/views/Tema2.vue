@@ -14,9 +14,6 @@
           br
           br
           |Por lo anterior, la base fundamental para el desarrollo de este tipo de actividades es la normatividad vigente en materia de tránsito y transporte, donde resalta de manera especial la Ley 769 de 2002 Código Nacional de Tránsito, el cual establece las normas de comportamiento vial y los parámetros para el ejercicio del derecho a la libre locomoción tipificado en el artículo 24 de la constitución política de Colombia.
-          br
-          br
-          |Son autoridades de tránsito en su orden, las siguientes:
     Separador
 
     .titulo-segundo.color-acento-contenido
@@ -36,8 +33,8 @@
     img.mb-5(src='@/assets/curso/temas/tema2/img-3.svg' data-aos="fade-right")
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 1.
-      span Pirámide de Hans Kelsen - jerarquía de las normas
+      h5 Figura 3.
+      span Autoridades de control operativo del tránsito
     
     .bg-texto-left-img.mb-1
       img.mx-auto.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img-4.png' data-aos="fade-right" style="max-width: 364px")

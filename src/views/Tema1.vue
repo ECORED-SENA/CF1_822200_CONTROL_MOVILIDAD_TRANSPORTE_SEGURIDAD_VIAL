@@ -30,7 +30,7 @@
         .d-flex.flex-wrap.p-xl-4
           .col-lg-5.mb-4.mb-md-0.order-2.order-lg-1
             h4.fw-bold Regulación
-            p En Colombia la Red Nacional de Carreteras se encuentra regulada por el Ministerio de Transporte colombiano mediante el Instituto Nacional de Vías (Invías) y sus direcciones territoriales (Decreto 1735 de agosto de 2001).
+            p En Colombia la Red Nacional de Carreteras se encuentra regulada por el Ministerio de Transporte colombiano mediante el Instituto Nacional de Vías (INVÍAS) y sus direcciones territoriales (Decreto 1735 de agosto de 2001).
         
           .col-lg-6.ms-xl-4.order-1.order-lg-2.mb-4.mb-lg-0
             figure
@@ -482,7 +482,7 @@
         div
           img.mb-4.mx-auto.mt-0.mb-auto(src='@/assets/curso/temas/tema1/sl3-3.svg' style="max-width: 190px")
           h4.mt-4.text-center(style="color: black") Señales preventivas tercer grupo
-          p.mb-4.text-center(style="color: black") De curvatura horizontal
+          p.mb-4.text-center(style="color: black") Preventivas de Intersecciones con otras vías.
         .d-flex.mt-auto.mb-0
           a.boton.boton-modal-sl(@click="modal7 = true;")
             span Ver señales
@@ -657,7 +657,7 @@
     ModalA.modal-t2(:abrir-modal.sync="modal7" style="background-color: #FEF0DE")
       .row.align-items-center
         h3.text-center Señales preventivas tercer grupo
-        p.text-center De curvatura horizontal
+        p.text-center Preventivas de Intersecciones con otras vías.
         img.mx-auto(src='@/assets/curso/temas/tema1/modal7.svg' style="max-width: 600px")
     ModalA.modal-t2(:abrir-modal.sync="modal8" style="background-color: #FEF0DE")
       .row.align-items-center
