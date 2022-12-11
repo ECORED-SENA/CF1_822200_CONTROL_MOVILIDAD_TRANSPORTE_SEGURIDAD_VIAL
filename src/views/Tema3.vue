@@ -97,7 +97,7 @@
           h4.text-start Actividad 2 - #[span(style="font-weight: normal") Examen médico forense]
           p.text-start Anamnesis es el instrumento de evaluación que permite, a través de una interacción mutuamente participativa entre el perito y el examinador, obtener una información útil que sirva para la posterior generación del informe médico legal de embriaguez.
             br
-            |relato de los hechos, antecedentes patológicos, psiquiátricos, farmacológicos, toxicológicos.
+            |Relato de los hechos, antecedentes patológicos, psiquiátricos, farmacológicos, toxicológicos.
             br
             br
             |Examen clínico presentación, porte y actitud, conciencia, orientación, signos vitales, aliento y olores particulares, piel y faneras, congestión conjuntival, pupilas y convergencia ocular, hidratación de mucosas, conducta motora, atención, memoria, afecto, lenguaje, pensamiento, sensopercepción, inteligencia, juicio, introspección, nistagmus, coordinación y equilibrio, pruebas para evaluación de la marcha, exámenes complementarios, toma de muestras.
