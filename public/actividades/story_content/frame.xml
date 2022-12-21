@@ -1141,6 +1141,9 @@
   </colorschemes>
   <string_tables>
     <string_table name="npnxnanbnsnfns00000000001">
+      <string id="playback_speed_title">~Plaý~bacķ~ Sþe~ed</string>
+      <string id="playback_speed_normal">~Nøřӎ~al</string>
+      <string id="acc_playback_speed">~þlaý~bacķ~ špe~ed</string>
       <string id="more_info">Más información</string>
       <string id="bio">Biografía</string>
       <string id="enable_keyboardshortcuts">Activar atajos del teclado</string>
@@ -1307,7 +1310,7 @@
             <slidelink slideid="_player.6g8RcXIVtvA.6GcNrKhHuYL" displaytext="Las señales verticales reglamentarias con mayor prioridad son: " expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5dJg7QfsaCi" displaytext="La señal informativa SI04 se denomina poste de referencia." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6pgX1xZSymS" displaytext="Las autoridades de control operativo del tránsito se clasifican en agentes de tránsito y los policiales adscritos a la Dirección de Tránsito y Transporte." expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6A9CILW5wSJ" displaytext="Sesenta formatos de policía judicial se encuentran activos. &#xA;Consulte la página https://oscarbasico.wixsite.com/polijudicial/formatos-fpj-blanco " expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6A9CILW5wSJ" displaytext="Entre los documentos doctrinales que la Fiscalía expidió se encuentran el Manual único de la policía judicial y el Manual único de cadena de custodia." expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
